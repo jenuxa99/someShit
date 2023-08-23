@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./libs/nouislider.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="range__type">
+            <input class="hidden__radio" type="radio" name="hidden__radio" id="hiddenRadio1" checked>
+            <label class="radio__text" for="hiddenRadio1" id="labelRadio1">все года</label>
+            <input class="hidden__radio" type="radio" name="hidden__radio" id="hiddenRadio2">
+            <label class="radio__text opacity" for="hiddenRadio2" id="labelRadio2">месяца</label>
+            <p id="event-start"></p>
+            <p id="event-end"></p>
+        </section>
+        <section class="range__slider">
+            <div id="y-slider">
+            </div>
+            <div class="m-slider">
+            </div>
+            
+        </section>
+    </main>
+        <script src="./libs/nouislider.min.js"></script>
+        <script src="./scripts/app.js"></script>
+</body>
+
+
+
+</html>

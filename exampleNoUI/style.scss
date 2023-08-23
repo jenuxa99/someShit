@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+%center {
+    @media (max-width: 1366px) {
+        padding-left: calc(50% - 600px);
+        padding-right: calc(50% - 600px);
+    }
+}
+
+.example {
+    @extend %center;
+    margin-top: 50px;
+
+    #slider-date {
+        width: 100%;
+    }
+
+    .event__wrapper {
+        margin-top: 30px;
+
+        .date {
+            margin-top: 10px;
+        }
+    }
+}

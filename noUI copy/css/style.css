@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #032539;
+}
+
+main {
+  padding-left: calc(50% - 673px);
+  padding-right: calc(50% - 673px);
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbf3f2;
+  overflow: hidden;
+}
+main .range__type {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #032539;
+}
+main .range__type .hidden__radio {
+  display: none;
+}
+main .range__line {
+  display: flex;
+  flex-direction: column;
+}
+main .range__line input {
+  width: 1117px;
+}
+main #form {
+  display: flex;
+  flex-direction: column;
+}
+main #form #r-slider {
+  width: 1117px;
+}
+
+.noUi-target {
+  width: 500px;
+}
+
+.noUi-target {
+  background-color: rgb(237, 241, 248);
+  height: 6px;
+}
+
+.noUi-touch-area {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid rgb(92, 173, 234);
+}
+
+.noUi-connect {
+  background-color: rgb(92, 173, 234);
+}
+
+.noUi-handle::after,
+.noUi-handle::before {
+  display: none;
+}
+
+.noUi-horizontal .noUi-handle {
+  height: 0px;
+  box-shadow: none;
+  border: 0px;
+  cursor: pointer;
+  top: -8px;
+}
+
+.test {
+  background-color: red;
+  height: 10px;
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
